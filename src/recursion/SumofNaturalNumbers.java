@@ -2,7 +2,10 @@ package recursion;
 
 public class SumofNaturalNumbers {
     public static int sum(int n) {
-        return 0;
+        if (n == 1) {
+            return 1;
+        }
+        return sum(n - 1) + n;
     }
 
     public static void main(String[] args) {
