@@ -7,7 +7,7 @@ public class PowerFunction {
             }
             return base * power(base, exponent - 1);
         }
-        public static void main(String[] args) {
-            System.out.println(power(2, 3)); 
+    public static void main(String[] args) {
+        System.out.println(power(2, 3)); 
     }
 }
