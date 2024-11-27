@@ -2,7 +2,7 @@ package recursion;
 
 public class ArraySum {
     
-    public static int sumArray(int[] arr, int n) {
+    public static int sumArray(int[] arr, int n) { 
         if (n == 1) {
             return arr[0];
         }

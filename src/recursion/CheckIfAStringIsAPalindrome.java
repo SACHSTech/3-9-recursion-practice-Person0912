@@ -13,5 +13,6 @@ public class CheckIfAStringIsAPalindrome {
     }
     public static void main(String[] args) {
         System.out.println(isPalindrome("plooolp"));
+        System.out.println(isPalindrome("plooop"));
     }
 }

@@ -5,8 +5,7 @@ public class SumOfDigits {
     public static int sumOfDigits(int n) {
         if (n % 10 == 0) {
             return n;
-        }
-        else {
+        } else {
             return sumOfDigits(n / 10) + n % 10;
         }
     }

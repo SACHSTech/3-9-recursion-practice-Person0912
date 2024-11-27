@@ -3,12 +3,11 @@ package recursion;
 public class CountUpTimer {
     
     public static void countUp(int n) {
-    
         if (n == 1) {
-            System.out.print(n);
+            System.out.print(n + " ");
         } else {
             countUp(n - 1);
-            System.out.print(n);
+            System.out.print(n + " ");
         }
     }
 

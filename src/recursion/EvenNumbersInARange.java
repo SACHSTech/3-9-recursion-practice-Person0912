@@ -3,7 +3,6 @@ package recursion;
 public class EvenNumbersInARange {
     
     public static void printEvens(int start, int end) {
-        
         int evenStart = start;
         int evenEnd = end;
         
