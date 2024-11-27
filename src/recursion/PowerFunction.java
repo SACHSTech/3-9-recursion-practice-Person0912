@@ -1,6 +1,7 @@
 package recursion;
 
 public class PowerFunction {
+    
     public static int power(int base, int exponent) {
             if (exponent == 0) {
                 return 1;

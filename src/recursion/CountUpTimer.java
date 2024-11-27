@@ -1,6 +1,7 @@
 package recursion;
 
 public class CountUpTimer {
+    
     public static void countUp(int n) {
     
         if (n == 1) {

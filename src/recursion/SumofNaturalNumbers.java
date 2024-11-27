@@ -1,6 +1,7 @@
 package recursion;
 
 public class SumofNaturalNumbers {
+    
     public static int sum(int n) {
         if (n == 1) {
             return 1;

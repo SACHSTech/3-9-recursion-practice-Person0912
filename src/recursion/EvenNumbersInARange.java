@@ -16,7 +16,7 @@ public class EvenNumbersInARange {
         if (evenStart == evenEnd) {
             System.out.print(evenStart);
         } else {
-            System.out.print(evenStart);
+            System.out.print(evenStart + " ");
             printEvens(evenStart + 2, evenEnd);
         }
     }
